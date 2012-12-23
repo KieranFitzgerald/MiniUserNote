@@ -1,0 +1,30 @@
+/* CSS Document */
+
+#note {
+	width: 200px;
+	height: 200px;
+	background-color: rgb(255, 255, 153);
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	paddin-left: 5px;
+}
+
+#note.h1 {
+	font-size: 18px;
+	line-height: 20px;	
+}
+
+
+#notearea {
+	width: inherit;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: rgb(255, 255, 153);	
+	border: #999 2px solid;
+}
+
+#notesub {
+	width: inherit;
+	margin-left: 5px;
+	margin-right: 5px;	
+}
