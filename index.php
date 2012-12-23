@@ -23,7 +23,9 @@
 .notearea {
 	width: inherit;
 	margin-left: 5px;
-	margin-right: 5px;	
+	margin-right: 5px;
+	background-color: rgb(255, 255, 153);	
+	border: #999 2px solid;
 }
 
 .notesub {
