@@ -20,6 +20,18 @@
 	paddin-left: 5px;
 }
 
+.notearea {
+	width: inherit;
+	margin-left: 5px;
+	margin-right: 5px;	
+}
+
+.notesub {
+	width: inherit;
+	margin-left: 5px;
+	margin-right: 5px;	
+}
+
 </style>
 </head>
 
@@ -30,7 +42,7 @@
 <div id="notetxt">
 <form method="post" action="noteupdate.php">
 <textarea name="notearea"><?php echo $_SESSION['note']; ?></textarea><br />
-<input type="submit" value="Save for now..." />
+<input type="submit" name="notesub" value="Save for now..." />
 </form>
 </div>
 </div>
