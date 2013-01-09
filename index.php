@@ -9,6 +9,7 @@
 
 <body>
 <h1>A demo for note.</h1>
+<h2>Saves a session...</h2>
 <div id="note">
 <h3>My Note...</h3>
 <div id="notetxt">
